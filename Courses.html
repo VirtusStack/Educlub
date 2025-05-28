@@ -13,12 +13,16 @@
  height: 35px;
  margin: 3px
 }
+.gallery-img:hover{
+transform: scale(0.9);
+}
+
 </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-secondary bg-secondary">
 <div class="container-fluid">
-<a class="navbar-brand d-flex align-item-center" href="Home.html">
+<a class="navbar-brand d-flex align-items-center" href="Home.html">
 <img src="Logo.jpg" alt="Educlub" class="me-2" width="35" height="35">
 <span class="border border-rounded text-light">EDUCLUB</span>
 </a>
@@ -39,18 +43,61 @@
 </nav>
 <div class="container py-5">
 <h2 class="mb-4 text-center">Explore Our Courses</h2>
-<div class="row mb-4">
-<div class="col-md-6 mb-2">
-<input type="text" class="form-control" placeholder="Search courses...">
-</div>
-<div class="col-md-6 mb-2">
+<form class="row justify-content-center mt-4">
+<div class="col-md-4 mb-2">
 <select class="form-select">
-<option selected>Filter by Subject</option>
-<option>Bscit</option>
+<option selected>Filter by Course</option>
+<option>Web development</option>
 <option>Business</option>
 <option>Design</option>
 <option>Engineering</option>
 </select>
+</div>
+<div class="col-md-4 mb-2">
+<input type="text" class="form-control" placeholder="Search courses...">
+</div>
+<div class="col-md-2 mb-2">
+<button class="btn btn-outline-success" type="submit">Search</button>
+</div>
+</form>
+<div class="container py-5">
+<div class="row g-1">
+<div class="col-sm-6 col-md-4 my-2">
+<div class="position-relative d-inline-block">
+ <img src="commu.jpg" alt="Educlub" class="img-fluid rounded-circle gallery-img">
+<div class="position-absolute top-50 start-50 translate-middle  overlay-text"><h1 class="text-white">COMUNICATION</h1>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 my-2">
+<div class="position-relative d-inline-block">
+<img src="lang.jpg" alt="Educlub" class="img-fluid rounded-circle gallery-img">
+<div class="position-absolute top-50 start-50 translate-middle  overlay-text"><h1 class="text-white">LANGUAGE</h1>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 my-2">
+<div class="position-relative d-inline-block">
+<img src="business.jpg" alt="Educlub" class="img-fluid rounded-circle gallery-img">
+<div class="position-absolute top-50 start-50 translate-middle  overlay-text"><h1 class="text-white">BUSINESS</h1>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 my-2">
+<div class="position-relative d-inline-block">
+<img src="software.jpg" alt="Educlub" class="img-fluid rounded-circle gallery-img">
+<div class="position-absolute top-50 start-50 translate-middle  overlay-text"><h1 class="text-white">SOFTWARE</h1>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 my-2">
+<div class="position-relative d-inline-block">
+<img src="social.jpg" alt="Educlub" class="img-fluid rounded-circle gallery-img">
+<div class="position-absolute top-50 start-50 translate-middle  overlay-text"><h1 class="text-white">SOCIAL MEDIA</h1>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 </body>
