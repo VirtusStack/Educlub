@@ -5,6 +5,7 @@
 <meta name="viewpage" content="width=device-width, initial=1.0">
 <title>Website</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <style>
 .border{
@@ -12,6 +13,12 @@
  width: 35x;
  height: 35px;
  margin: 3px
+}
+.gallery-img:hover{
+transform: scale(0.8);
+}
+.navbar-nav .nav-link:hover{
+color: #ffc107 !important;
 }
 </style>
 </head>
@@ -26,20 +33,27 @@
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="Navbar">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="Home.html"><span class="text-light">Home</span></a></li>
-<li class="nav-item"><a class="nav-link" href="About.html"><span class="text-light">About</span></a></li>
-<li class="nav-item"><a class="nav-link" href="Gallery.html"><span class="text-light">Gallery</span></a></li>
-<li  class="nav-item"><a class="nav-link" href="Courses.html"><span class="text-light">Courses</span></a></li>
-<li  class="nav-item"><a class="nav-link" href="Utility.html"><span class="text-light">Utility</span></a></li>
-<li class="nav-item"><a class="nav-link" href="Contact.html"><span class="text-light">Contact</span></a></li>
+<ul class="navbar-nav w-100 d-flex text-center  ms-auto fs-5">
+<li class="nav-item flex-fill"><a class="nav-link text-light" href="Home.html">Home</a></li>
+<li class="nav-item flex-fill"><a class="nav-link text-light" href="About.html">About</a></li>
+<li class="nav-item flex-fill"><a class="nav-link text-light" href="Gallery.html">Gallery</a></li>
+<li  class="nav-item flex-fill"><a class="nav-link text-light" href="Courses.html">Courses</a></li>
+<li  class="nav-item flex-fill"><a class="nav-link text-light" href="Utility.html">Utility</a></li>
+<li class="nav-item flex-fill"><a class="nav-link text-light" href="Contact.html">Contact</a></li>
 </ul>
 </div>
 </div>
 </nav>
 <div class="container py-5">
+<ul class="breadcrumb fs-4">
+<li class="breadcrumb-item"><a href="Home.html" class="text-decoration-none text-dark">Home</a></li>
+<li class="breadcrumb-item"><a href="Courses.html" class="text-decoration-none text-dark">Courses</a></li>
+<li class="breadcrumb-item"><a href="science.html" class="text-decoration-none text-dark">Department of B.A</a></li>
+</ul>
 <h1>Bachelor of Arts(Arts-B.A)-Explore Your Path in Arts</h1>
 <p>A Bachelor of Arts (BA) degree is a four-year undergraduate degree that focuses on the humanities, social sciences, and liberal arts. It typically involves a broad range of coursework and allows for specialization in a specific area of interest. BA degrees are designed to develop critical thinking, communication, and research skills, valuable in many fields.</p>
+<div class="row align-items-center">
+<div class="col-md-6">
 <ul>
 <li>Key aspects of a BA degree:</li>
 <li>Focus: Humanities, social sciences, and liberal arts.</li>
@@ -47,6 +61,11 @@
 <li>Skills: Develops critical thinking, communication, research, and writing skills.</li>
 <li>areer paths: BA degrees can lead to diverse career paths in various fields, including education, writing, journalism, law, and government. </li>
 </ul> 
+</div>
+<div class="col-md-6">
+<img src="commu.jpg" alt="Educlub" class="img-fluid" style="width:80%; height:50%;" >
+</div>
+<h4 class="mt-4">Available Specialization</h4>
 <div id="arts">
 <div class="card">
 <div class="header">
@@ -110,5 +129,49 @@ Art psychology courses explore the intersection of art and psychology, often foc
 </div>
 </div>
 </div>
+<div class="container py-2">
+<ul class="pagination">
+<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+<li class="page-item active"><a class="page-link" href="#">1</a></li>
+<li class="page-item"><a class="page-link" href="#">2</a></li>
+<li class="page-item"><a class="page-link" href="#">3</a></li>
+<li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+</div>
+<footer class="bg-secondary text-white pt-4 pb-3 mt-5">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-4 mb-3">
+<h5>About Us</h5>
+<p class="small">
+We are committed to providing quality education through innovative learning methods and experienced faculty.</p>
+</div>
+<div class="col-md-4 mb-3">
+<h5>Quick Links</h5>
+<ul class="list-unstyled">
+<li><a href="Home.html" class="text-white text-decoration-none">Home</a></li>
+<li><a href="About.html" class="text-white text-decoration-none">About</a></li>
+<li><a href="Courses.html" class="text-white text-decoration-none">Courses</a></li>
+<li><a href="Utillity.html" class="text-white text-decoration-none">Utility</a></li>
+<li><a href="Contact.html" class="text-white text-decoration-none">Contact Us</a></li>
+</ul>
+</div>
+<div class="col-md-4 mb-3">
+<h5>Contact</h5>
+<p class="small mb-1">123 Learning St, Education City</p>
+<p class="small mb-1">inf0@eduwebsite.com</p>
+<p class="small">+49500840981</p>
+<div classs="mt-2">
+<a href="#" class="btn btn-primary rounded-circle text-white me-3"><i class="bi bi-facebook"></i></a>
+<a href="#" class="btn btn-info rounded-circle text-white me-3"><i class="bi bi-twitter"></i></a>
+<a href="#" class="btn btn-danger rounded-circle text-white me-3"><i class="bi bi-youtube"></i></a>
+<a href="#" class="btn btn-danger rounded-circle text-white"><i class="bi bi-instagram"></i></a>
+</div>
+</div>
+</div>
+<hr class="bg-light">
+<p class="text-center small mb-0">&copy; 2025 Educlub Website. All right reserved.</p>
+</div>
+</footer>
 </body>
 </html>
